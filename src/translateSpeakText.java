@@ -52,6 +52,7 @@ public class translateSpeakText {
         }
 
         System.out.println("Translation : " + translated);
+        System.out.println("Powered by Yandex.Translate");
         System.out.println("\nPlease wait... Outputting speech..");
         TextToSpeech textToSpeech = new TextToSpeech();
         // print out all possible voices:
